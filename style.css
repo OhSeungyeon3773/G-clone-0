@@ -5,6 +5,9 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    text-decoration: underline;
+}
 #lower a{
     color: #898b8e;
 }
@@ -17,7 +20,6 @@ div.top{
     overflow:auto;
     padding: 6px;
 }
-giv
 div.t-l{
     float:left;
     padding-top:13px;
@@ -29,6 +31,7 @@ div.middle {
     display:block;
 }
 div.m-logo {
+    padding-top: 98px;
     display:block;
 }
 div.l-nation{
@@ -46,6 +49,10 @@ img {
 #lower{
     display:block;
     background-color: #F2F2F2;
+    color: #898b8e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
 }
 div.l-info{
     display:block;
@@ -120,6 +127,9 @@ div.m-search{
     margin-left: auto;
     margin-right: auto;
 }
+div.m-search:hover{
+    box-shadow: 0px 1px 4px 1px #DFE1E5;
+}
 div.m-search-low{
     padding-top: 18px;
     text-align: center;
@@ -132,7 +142,7 @@ div.box1{
     background-color: #F8F9FA;
     padding: 10px 16px 10px 16px;
     margin: 11px 4px 11px 4px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 div.box1:hover{
     outline:1px solid #d7d9dd;
@@ -151,19 +161,13 @@ div.box2{
     background-color: #F8F9FA;
     padding: 10px 16px 10px 16px;
     margin: 11px 4px 11px 4px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
-#lower{
-    color: #898b8e;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 div.l-nation{
     font-size: 15px;
     padding-left: 40px;
-    padding-bottom: 16px;
+    padding-bottom: 14px;
     border-bottom: 1px solid #DADCE0;
 }
 div.l-info{
@@ -176,10 +180,10 @@ div.l-info-l{
     padding-left: 45px;
 }
 div.l-advertisement{
-    padding: 22px 28px 27px 0px;
+    padding: 17px 28px 20px 0px;
 }
 div.l-setting{
-    padding: 22px 0px 27px 28px;
+    padding: 17px 0px 20px 28px;
 }
 div.l-business{
     padding-right: 28px;
