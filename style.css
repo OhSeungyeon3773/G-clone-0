@@ -1,0 +1,197 @@
+body{
+    margin: 0 0 0 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#lower a{
+    color: #898b8e;
+}
+div{
+    display:inline-block;
+}
+div.top{
+    font-size: 13px;
+    display:block;
+    overflow:auto;
+    padding: 6px;
+}
+giv
+div.t-l{
+    float:left;
+    padding-top:13px;
+}
+div.t-r{
+    float:right;
+}
+div.middle {
+    display:block;
+}
+div.m-logo {
+    display:block;
+}
+div.l-nation{
+    display:block;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:271.99px;
+    height:92px;
+}
+
+#lower{
+    display:block;
+    background-color: #F2F2F2;
+}
+div.l-info{
+    display:block;
+    overflow:auto;
+}
+div.l-info-l{
+    float:left;
+ }
+div.l-info-r{
+    float:right;
+}
+.t-l{
+    padding-top: 13px;
+}
+div.t-l-Google-info{
+    margin:0 5px 0 15px;
+}
+div.t-l-store{
+    margin:0 5px 0 15px;
+}
+div.t-r-Gmail{
+    padding:0 5px 0 15px;
+}
+div.t-r-image{
+    padding:0 5px 0 15px;
+}
+div.t-r-menu{
+    fill: #676a6e;
+    vertical-align: middle;
+    width: 25.97px;
+    height: 12.97px;
+    padding: 10px 0 0 11px;
+}
+div.t-r-menu-box{
+    vertical-align: middle;
+    width: 47.97px;
+    height: 47.97px;
+    border-radius: 50%
+}
+#profile-image img{
+    width: 32.97px;
+    height: 32.97px;
+    border-radius: 50%
+}
+#profile-image{
+    padding: 7px 0 0 8px;
+}
+div.t-r-profile{
+    vertical-align: middle;
+    width: 47.97px;
+    height: 47.97px;
+    border-radius: 50%
+}
+div.t-r-profile:hover{
+    background-color: #F8F9FA
+}
+div.t-r-menu-box:hover{
+    background-color: #F8F9FA
+}
+
+div.m-low{
+    display:block;
+    padding-top:26px;
+}
+div.m-search{
+    display: block;
+    width: 583.99px;
+    height: 47.62px;
+    background: white;
+    border-radius: 30px;
+    border: 1px solid #DFE1E5;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.m-search-low{
+    padding-top: 18px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.box1{
+    font-size: 14px;
+    background-color: #F8F9FA;
+    padding: 10px 16px 10px 16px;
+    margin: 11px 4px 11px 4px;
+    border-radius: 3px;
+}
+div.box1:hover{
+    outline:1px solid #d7d9dd;
+    outline-offset: -1px;
+    box-shadow:0px 1px 1px 0px  #DFE1E5;
+}
+div.box2:hover{
+    outline:1px solid #d7d9dd;
+    outline-offset: -1px;
+    box-shadow:0px 1px 1px 0px  #DFE1E5;
+}
+
+
+div.box2{
+    font-size: 14px;
+    background-color: #F8F9FA;
+    padding: 10px 16px 10px 16px;
+    margin: 11px 4px 11px 4px;
+    border-radius: 3px;
+}
+
+#lower{
+    color: #898b8e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+div.l-nation{
+    font-size: 15px;
+    padding-left: 40px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DADCE0;
+}
+div.l-info{
+    font-size: 14px;
+}
+div.l-info-r{
+    padding-right: 45px;
+}
+div.l-info-l{
+    padding-left: 45px;
+}
+div.l-advertisement{
+    padding: 22px 28px 27px 0px;
+}
+div.l-setting{
+    padding: 22px 0px 27px 28px;
+}
+div.l-business{
+    padding-right: 28px;
+}
+div.l-search-info{
+    padding-right: 28px;
+}
+div.l-privacy{
+    padding-left: 28px;
+}
+div.l-terms{
+    padding-left: 28px;
+}
+
+
