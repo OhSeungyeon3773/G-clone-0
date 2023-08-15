@@ -1,6 +1,7 @@
 body{
-    margin: 0 0 0 0;
+    margin: 0;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -11,82 +12,60 @@ a:hover{
 #lower a{
     color: #898b8e;
 }
+
 div{
     display:inline-block;
 }
-div.top{
+
+.t-l, .l-info-l{
+    float:left;
+}
+.t-r, .l-info-r{
+    float:right;
+}
+
+.middle, .l-nation, img, #lower, .l-info, .m-logo, .m-low {
+    display:block;
+}
+.top{
     font-size: 13px;
     display:block;
     overflow:auto;
     padding: 6px;
 }
-div.t-l{
-    float:left;
+.t-l{
     padding-top:13px;
 }
-div.t-r{
-    float:right;
-}
-div.middle {
-    display:block;
-}
-div.m-logo {
+.m-logo {
     padding-top: 98px;
-    display:block;
 }
-div.l-nation{
-    display:block;
-}
-
 img {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width:271.99px;
     height:92px;
 }
-
 #lower{
-    display:block;
     background-color: #F2F2F2;
     color: #898b8e;
     position: fixed;
     bottom: 0;
     width: 100%;    
 }
-div.l-info{
-    display:block;
+.l-info{
     overflow:auto;
 }
-div.l-info-l{
-    float:left;
- }
-div.l-info-r{
-    float:right;
-}
-.t-l{
-    padding-top: 13px;
-}
-div.t-l-Google-info{
+.t-l-Google-info, .t-l-store, .t-r-Gmail, .t-r-image{
     margin:0 5px 0 15px;
 }
-div.t-l-store{
-    margin:0 5px 0 15px;
-}
-div.t-r-Gmail{
-    padding:0 5px 0 15px;
-}
-div.t-r-image{
-    padding:0 5px 0 15px;
-}
-div.t-r-menu{
+.t-r-menu{
     fill: #676a6e;
     vertical-align: middle;
     width: 25.97px;
     height: 12.97px;
     padding: 10px 0 0 11px;
 }
-div.t-r-menu-box{
+.t-r-menu-box, .t-r-profile{
     vertical-align: middle;
     width: 47.97px;
     height: 47.97px;
@@ -100,35 +79,41 @@ div.t-r-menu-box{
 #profile-image{
     padding: 7px 0 0 8px;
 }
-div.t-r-profile{
-    vertical-align: middle;
-    width: 47.97px;
-    height: 47.97px;
-    border-radius: 50%
-}
-div.t-r-profile:hover{
-    background-color: #F8F9FA
-}
-div.t-r-menu-box:hover{
+
+.t-r-profile:hover, .t-r-menu-box:hover{
     background-color: #F8F9FA
 }
 
-div.m-low{
-    display:block;
+.m-low{
     padding-top:26px;
 }
 div.m-search{
     display: block;
+    float: none;
+    margin: 0 auto;
+}
+input[type=text]{
+    display: block;
+    float: none;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 12px 47px;
     width: 583.99px;
     height: 47.62px;
-    background: white;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-size: 14px;
+    background-position: 20px; 
+    background-repeat: no-repeat;  
     border-radius: 30px;
     border: 1px solid #DFE1E5;
-    margin-left: auto;
-    margin-right: auto;
 }
-div.m-search:hover{
+  
+input[type=text]:focus, input[type=text]:hover{
     box-shadow: 0px 1px 4px 1px #DFE1E5;
+    outline: none;
 }
 div.m-search-low{
     padding-top: 18px;
@@ -144,17 +129,6 @@ div.box1{
     margin: 11px 4px 11px 4px;
     border-radius: 4px;
 }
-div.box1:hover{
-    outline:1px solid #d7d9dd;
-    outline-offset: -1px;
-    box-shadow:0px 1px 1px 0px  #DFE1E5;
-}
-div.box2:hover{
-    outline:1px solid #d7d9dd;
-    outline-offset: -1px;
-    box-shadow:0px 1px 1px 0px  #DFE1E5;
-}
-
 
 div.box2{
     font-size: 14px;
@@ -162,6 +136,11 @@ div.box2{
     padding: 10px 16px 10px 16px;
     margin: 11px 4px 11px 4px;
     border-radius: 4px;
+}
+.box1:hover, .box2:hover{
+    outline:1px solid #d7d9dd;
+    outline-offset: -1px;
+    box-shadow:0px 1px 1px 0px  #DFE1E5;
 }
 
 div.l-nation{
@@ -185,17 +164,9 @@ div.l-advertisement{
 div.l-setting{
     padding: 17px 0px 20px 28px;
 }
-div.l-business{
+
+div.l-business, .l-search-info, .l-privacy, .l-terms{
     padding-right: 28px;
-}
-div.l-search-info{
-    padding-right: 28px;
-}
-div.l-privacy{
-    padding-left: 28px;
-}
-div.l-terms{
-    padding-left: 28px;
 }
 
 
